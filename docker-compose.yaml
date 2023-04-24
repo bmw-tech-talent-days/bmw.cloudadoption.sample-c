@@ -10,7 +10,7 @@ services:
       - ALLOW_ANONYMOUS_LOGIN=yes
 
   kafka:
-    image: 'bitnami/kafka:latest'
+    image: 'bitnami/kafka:3.0.1'
     restart: unless-stopped
     ports:
       - '9094:9094'
